@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "author_name": "Mr. Raju",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "images": {
+            "blog_cover_image": "https://i.ibb.co/3d7CNyb/image1.jpg",
+            "author_image": "https://i.ibb.co/896n3D6/pexels-andrea-piacquadio-3779409.jpg"
+        },
+        "read_time": 10,
+        "publish_date": "Mar 14 (4 days ago)"
+    },
+    {
+        "id": 2,
+        "author_name": "Mim Rahman",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "images": {
+            "blog_cover_image": "https://i.ibb.co/9b3VYSR/image2.jpg",
+            "author_image": "https://i.ibb.co/H7VdSfw/pexels-andrea-piacquadio-3772511.jpg"
+        },
+        "read_time": 15,
+        "publish_date": "Mar 14 (4 days ago)"
+    },
+    {
+        "id": 3,
+        "author_name": "Sarah Lee",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "images": {
+            "blog_cover_image": "https://i.ibb.co/J2qr1qv/image3.jpg",
+            "author_image": "https://i.ibb.co/KKVx0YP/pexels-andrea-piacquadio-3760263.jpg"
+        },
+        "read_time": 8,
+        "publish_date": "Mar 14 (4 days ago)"
+    },
+    {
+        "id": 4,
+        "author_name": "Michael Johnson",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "images": {
+            "blog_cover_image": "https://i.ibb.co/NTyCxNT/image4.jpg",
+            "author_image": "https://i.ibb.co/vZM0gy7/pexels-pixabay-247298.jpg"
+        },
+        "read_time": 12,
+        "publish_date": "Mar 14 (4 days ago)"
+    }
+]
+

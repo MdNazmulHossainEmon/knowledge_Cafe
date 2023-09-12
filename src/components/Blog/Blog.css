@@ -1,0 +1,28 @@
+img{
+    max-width: 100%;
+}
+.author-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.cover-image{
+    width: 100%;
+}
+
+.blog-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-container{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
