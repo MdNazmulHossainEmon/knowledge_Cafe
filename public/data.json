@@ -8,7 +8,8 @@
             "author_image": "https://i.ibb.co/896n3D6/pexels-andrea-piacquadio-3779409.jpg"
         },
         "read_time": 10,
-        "publish_date": "Mar 14 (4 days ago)"
+        "blogName": "Coding Mastery Manifesto",
+        "publish_date": "March 14 (4 days ago)"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
             "author_image": "https://i.ibb.co/H7VdSfw/pexels-andrea-piacquadio-3772511.jpg"
         },
         "read_time": 15,
-        "publish_date": "Mar 14 (4 days ago)"
+        "blogName": "The Software Evolutionary",
+        "publish_date": "April 29 (4 days ago)"
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
             "author_image": "https://i.ibb.co/KKVx0YP/pexels-andrea-piacquadio-3760263.jpg"
         },
         "read_time": 8,
-        "publish_date": "Mar 14 (4 days ago)"
+        "blogName": "Tech Troubleshooting Tips",
+        "publish_date": "June 30 (4 days ago)"
     },
     {
         "id": 4,
@@ -41,7 +44,7 @@
             "author_image": "https://i.ibb.co/vZM0gy7/pexels-pixabay-247298.jpg"
         },
         "read_time": 12,
-        "publish_date": "Mar 14 (4 days ago)"
+        "blogName": "Cyber Security Spotlight",
+        "publish_date": "November 7 (4 days ago)"
     }
 ]
-

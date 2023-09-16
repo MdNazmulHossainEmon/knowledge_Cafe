@@ -11,9 +11,7 @@ const Blog = (props) => {
 
     const bookmarkAdded = props.bookmarkAdded
 
-    // console.log(props);
     const handleMarkAsRead = props.handleMarkAsRead
-    // console.log(handleMarkAsRead)
 
     return (
         <div className='blog-container'>
@@ -47,9 +45,9 @@ const Blog = (props) => {
 
                 </div>
                 <h2>{blog_title}</h2>
-                <button onClick={() => handleMarkAsRead(props.blog)}>
+                <Button onClick={() => handleMarkAsRead(props.blog)}>
               Mark as read
-            </button>
+            </Button>
             </div>
 
         </div>

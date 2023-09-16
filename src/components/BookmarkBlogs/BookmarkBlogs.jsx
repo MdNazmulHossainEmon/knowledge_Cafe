@@ -1,4 +1,5 @@
 import React from 'react';
+import "./BookmarkBlog.css"
 
 const BookmarkBlogs = (props) => {
 
@@ -12,13 +13,25 @@ const BookmarkBlogs = (props) => {
     }
 
     return (
-        <div className='sticky-top'>
-            <h5>Spent time on read: {total_time} min </h5>
-            <h5>Bookmark Blogs: {bookmark.length}  </h5>
+        <div className='sticky-top '>
+            <div className='mt-4 bookmark-container-top'>
+                <h5 className='read-title'>Spent time on read: {total_time} min </h5>
 
-            {
-                bookmark.map(bookName => <li>{bookName.author_name}</li>)
-            }
+            </div>
+            <div className='bookmark-container-bottom mt-4'>
+                <h5>Bookmark Blogs: {bookmark.length}  </h5>
+
+                {
+                    bookmark.map(bookName => <li
+                        key={bookName.id}
+                        className='list-container text-center'
+                    >
+                        {bookName.blogName}
+                    </li>
+                    )
+                }
+            </div>
+
         </div>
     );
 };

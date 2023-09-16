@@ -1,0 +1,21 @@
+.list-container{
+    list-style: none;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 10px;
+}
+.bookmark-container-bottom{
+    background-color: rgb(242, 246, 246) ;
+    padding: 10px;
+}
+.bookmark-container-top{
+    background-color: rgb(242, 246, 246) ;
+    padding: 10px;
+
+}
+.read-title{
+    color: rgb(46, 104, 151);
+}
