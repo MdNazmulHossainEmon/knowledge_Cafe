@@ -6,7 +6,6 @@ import { Button } from 'react-bootstrap';
 
 const Blog = (props) => {
 
-
     const { author_name, blog_title, read_time, publish_date, blog_cover_image, author_image } = props.blog
 
     const bookmarkAdded = props.bookmarkAdded
@@ -40,16 +39,14 @@ const Blog = (props) => {
                         >
                             <FontAwesomeIcon icon={faBookmark} />
                         </span>
-
                     </div>
 
                 </div>
                 <h2>{blog_title}</h2>
                 <Button onClick={() => handleMarkAsRead(props.blog)}>
-              Mark as read
-            </Button>
+                    Mark as read
+                </Button>
             </div>
-
         </div>
     );
 };

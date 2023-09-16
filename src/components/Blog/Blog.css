@@ -26,3 +26,6 @@ img{
     margin-top: 20px;
 }
 
+span{
+    cursor: pointer;
+}

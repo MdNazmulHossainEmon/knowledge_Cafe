@@ -4,7 +4,6 @@ import "./BookmarkBlog.css"
 const BookmarkBlogs = (props) => {
 
     const { bookmark, timeSpent } = props
-    console.log(timeSpent);
 
     let total_time = 0
 
@@ -18,8 +17,9 @@ const BookmarkBlogs = (props) => {
                 <h5 className='read-title'>Spent time on read: {total_time} min </h5>
 
             </div>
+
             <div className='bookmark-container-bottom mt-4'>
-                <h5>Bookmark Blogs: {bookmark.length}  </h5>
+                <h5 className='mb-3'>Bookmarked Blogs: {bookmark.length}  </h5>
 
                 {
                     bookmark.map(bookName => <li

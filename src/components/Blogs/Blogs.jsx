@@ -18,6 +18,7 @@ const Blogs = () => {
     }, [])
 
     const bookmarkAdded = (blog) => {
+
         // console.log(blog);
         const newBlog = [...bookmark, blog]
         setBookmark(newBlog)
